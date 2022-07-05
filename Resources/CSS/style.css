@@ -1,0 +1,267 @@
+.wrapper {
+    font-family: Rubik;
+}
+
+h3 {
+    line-height: 25px;
+    font-weight: 200;
+}
+.header__container {
+    display: flex;
+    min-height: 64px;
+    align-items: center;
+}
+.header__logo {
+    padding: 0px 6px 0px 24px;
+}
+.article__logo h2{
+    height: 32px;
+    color: rgb(68, 80, 91);
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 24px 0px 0px;
+}
+.menu__list {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+.menu__item {
+    font-size: 20px;
+}
+.menu__link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.718);
+    transition: background-color 0.3s ease 0s;
+    border-radius: 5px;
+}
+.menu__link:hover {
+    background-color: rgba(128, 128, 128, 0.482);
+}
+.start-here {
+    background-color: rgba(128, 128, 128, 0.482);
+}
+.start-here__container {
+    display: flex;
+    align-items: center;
+}
+.start-here__content {
+    flex: 0 1 40%;
+    padding: 0px 0px 0px 52px;
+    line-height: 1.2;
+}
+.start-here__image {
+    flex: 0 1 60%;
+    padding: 32px 24px;
+}
+.start-here__image img {
+    max-width: 100%;
+}
+.block-text__title {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.695)
+}
+.block-text__text {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.695)
+}
+.block-text__button {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.695);
+    padding: 14px 80px;
+    transition: background-color 0.3s ease 0s;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: black;
+}
+.practicing {
+    margin-bottom: 32px;
+}
+.practicing__container {
+    display: flex;
+    align-items: center;
+}
+.practicing__info {
+    flex: 0 1 60%;
+    align-items: center;
+    border-right: 1px solid rgba(128, 128, 128, 0.482);
+    height: auto;
+}
+.practicing__info__image {
+    padding: 32px 24px;
+}
+.practicing__info__image img {
+    max-width: 100%;
+}
+.practicing__info__title {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.695);
+    padding-left: 24px;
+}
+.practicing__info__text {
+    padding-left: 24px;
+    font-size: 20px;
+}
+.practicing__news {
+    flex: 0 1 40%;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.image {
+    width: 35%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    width: 65%;
+    padding-left: 20px;
+    line-height: 10px;
+}
+
+
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.orientation-date,
+.our-campus,
+.our-guest {
+    display: flex;
+    line-height: 1.5;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.482);
+    padding: 16px 16px;
+}
+
+.our-guest {
+    background-color: rgba(128, 128, 128, 0.482);
+}
+
+.start-learning {
+    background-color: rgba(128, 128, 128, 0.482);
+}
+.start-learning__container {
+    align-items: center;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.start-learning__article {
+    padding: 32px 0px 32px 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.695);
+    text-align: center;
+}
+.start-learning__subjects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.software-engineering,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing {
+    background-color: white;
+    width: 26%;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.image1 {
+    width: 100%;
+    height: auto;
+}
+.image1 img {
+    width: 100%;
+}
+
+.text1 {
+    padding-left: 16px;
+}
+
+.exhibit__container {
+    align-items: center;
+}
+.exhibit__article {
+    padding: 32px 0px 32px 0px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.695);
+    text-align: center;
+}
+
+.exhibit__elements {
+    display: flex;
+    max-width: 100%;
+}
+
+.exhibit__info {
+    flex: 0 1 60%;
+    padding: 0px 24px 24px 24px;
+}
+
+.exhibit__info__video video {
+    max-width: 100%;
+}
+
+.exhibit__news {
+    flex: 0 1 40%;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+
+.image2 {
+    width: 35%;
+    padding: 16px;
+}
+
+.image2 img {
+    width: 100%;
+    height: auto;
+}
+
+.text2 {
+    width: 65%;
+}
+
+.fisma__news,
+.now_and_then__news {
+    display: flex;
+    align-items: center;
+}
+
+.fisma__news {
+    background-color: rgba(128, 128, 128, 0.482);
+}
+
+.footer__container {
+    display: flex;
+    border-top: 1px solid rgba(128, 128, 128, 0.482);
+}
+
+.rights__section {
+    padding-left: 24px;
+}
+
+.footer__menu {
+    flex: 1 1 auto;
+}
